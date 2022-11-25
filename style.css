@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: 109vh;
+    font-size: 100%;
+    background-image: url(imagens_pet/imagem_fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    background-position: center center;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 86px;
+}
+
+.cabecalho-imagem {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 60px;
+    top: 22px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 10px 48px;
+}
+
+.cabecalho-menu-item {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #818487;
+}
+
+.cabecalho-menu-item:hover {
+    box-shadow: 0px 0px 4px #818487;
+    background-color: #444545;
+}
+
+.cabecalho-menu-item:focus {
+    padding: 5px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    width: 490px;
+    height: 348px;
+    left: 32px;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 117px;
+    color: #FFFFFF;
+    padding: 38px 86px;
+}
+
+.nome-da-marca {
+    line-height: 117px;
+    color: #FFFFFF;
+    left: 9px;
+    padding: 9px 86px;
+}
+
+
+.midia-pet {
+    width: 500px;
+    padding: 55px 86px;
+}
+
+.conteudo-secundario {
+    color: #FFFFFF;
+    padding: 15px 630px;
+    font-size: 13px;
+
+ }
+
+.container-img{
+display:flex;
+align-items:flex-start;
+justify-content:center;
+
+}
+.container-tab{
+    display: flex;
+    justify-content: center;
+}
+
+.itens{
+    padding: 38px 86px;
+    width: 350px;
+}
+
+.itens-descricao{
+    line-height: 117px;
+    color: #FFFFFF;
+  
+  
+}
+.tab {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(143, 143, 143, 0.15);
+}
+
+.tab thead tr {
+    background-color: #2013af;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tab th,
+.tab td {
+    padding: 12px 15px;
+}
+
+.tab tbody tr {
+    border-bottom: 1px solid #0b197e;
+}
+
+.tab tbody tr:nth-of-type(even) {
+    background-color: #000000;
+}
+
+.tab tbody tr:last-of-type {
+    border-bottom: 2px solid #0b197e;
+}
+
+.tab tbody tr.ac {
+    font-weight: bold;
+    color: #ffffff;
+}
+
